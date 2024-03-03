@@ -16,7 +16,7 @@ const profile = require("./Controllers/profile.controller");
 
 app.use(express.json());
 app.use(require("cors")());
-//app.use("/home", homeFeed);
+//app.use("/home", homeFeed); //? STRETCH GOAL
 app.use("/post", post);
 app.use("/profile", profile);
 //app.use("/search", search); //? STRETCH GOAL
